@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top-box">
+    <view class="title">树洞</view>
+    <view class="intro">这世间有太多的烦恼要忘～</view>
+    <view class="btn-box">
+      <button type="default" plain="true" bindtap="handleGetOpenId">说个小秘密吧</button>
+    </view>
+  </view>
+  <view class="list">
+    <view class="record-box" wx:key="id" wx:for="{{dataList}}" bindtap="gotoDetail" data-id="{{item._id}}">
+      <view class="txt-box">{{item.title}}</view>
+      <view class="btm-box">
+        <text>{{item.times}}</text>
+        <text>评论: {{item.commentList.length}}</text>
+      </view>
+    </view>
+  </view>
+  <we-pagination  class="page-box" paginationProps="{{pagination}}" bind:prevClick="handlePrev" bind:nextClick="handleNext"></we-pagination>
+</view>

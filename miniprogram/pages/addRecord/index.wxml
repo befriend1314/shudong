@@ -1,0 +1,12 @@
+<!--pages/addrecord/index.wxml-->
+<view>
+  <view class="form-box">
+    <view>你想说的话</view>
+    <view class="section">
+      <form bindsubmit="bindFormSubmit">
+        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+        <button class="submitBtn" form-type="submit">发布</button>
+      </form>
+    </view>
+  </view>
+</view>

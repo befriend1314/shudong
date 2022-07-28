@@ -1,0 +1,17 @@
+.pagination-box{
+  padding: 30px;
+}
+.pagination-items{
+  display: flex;
+}
+.pagination-item{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.pagination-item .btn{
+  width: 100%;
+  background: #fff;
+  color: #3668a1;
+}

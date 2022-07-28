@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top-box">
+    <view class="title">树洞</view>
+    <view class="intro">这世间有太多的烦恼要忘～</view>
+    <view class="btn-box">
+      <button type="default" plain="true">说个小秘密吧</button>
+    </view>
+  </view>
+  <view>
+    <view wx:key="item" wx:for="{{record.content}}" class="txtblock">
+      <rich-text nodes="{{item}}"></rich-text>
+    </view>
+  </view>
+</view>

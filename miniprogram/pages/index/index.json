@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "we-pagination": "/components/wePagination/index"
+  }
+}

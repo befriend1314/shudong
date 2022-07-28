@@ -1,0 +1,43 @@
+/**index.wxss**/
+.top-box{
+  padding-bottom: 30rpx;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #652f99, #3668a1);
+  color: #fff;
+}
+.title{
+  font-size: 80rpx;
+  line-height: 2;
+}
+.intro{
+  font-size: 45rpx;
+}
+.btn-box{
+  margin-top: 20rpx;
+}
+.btn-box button{
+  background-color: #fff !important;
+}
+.list{
+  width: 96%;
+  padding-top: 60rpx;
+}
+.record-box{
+  margin-bottom: 50rpx;
+  
+}
+.txt-box{
+  padding: 60rpx 30rpx;
+  font-size: 36rpx;
+  background-color: #ccc;
+}
+.btm-box{
+  display: flex;
+  padding: 20rpx;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.page-box{
+  width: 100%;
+}

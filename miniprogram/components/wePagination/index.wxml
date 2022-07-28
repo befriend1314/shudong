@@ -1,0 +1,13 @@
+
+<!--miniprogram/components/wePagination/index.wxml-->
+<view class="pagination-box">
+  <view class="pagination-items">
+    <view class="pagination-item">
+      <button type="default" class="btn" bindtap="handlePrev">上一页</button>
+    </view>
+    <view class="pagination-item pagination-desc">{{pagination.pageNo}}/{{pagination.total}}</view>
+    <view class="pagination-item">
+      <button type="default" class="btn" bindtap="handleNext">下一页</button>
+    </view>
+  </view>
+</view>
